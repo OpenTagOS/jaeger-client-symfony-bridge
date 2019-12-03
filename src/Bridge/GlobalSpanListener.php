@@ -21,7 +21,7 @@ class GlobalSpanListener implements EventSubscriberInterface
     {
         return [
             RequestEvent::class => ['onRequest', 30],
-            TerminateEvent::class => ['onTerminate', 4096],
+            TerminateEvent::class => ['onTerminate', 4097],
         ];
     }
 

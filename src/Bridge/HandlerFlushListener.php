@@ -20,7 +20,7 @@ class HandlerFlushListener implements EventSubscriberInterface
 
     public static function getSubscribedEvents()
     {
-        return [TerminateEvent::class => ['onTerminate', -16384],];
+        return [TerminateEvent::class => ['onTerminate', -16383],];
     }
 
     public function onTerminate()
